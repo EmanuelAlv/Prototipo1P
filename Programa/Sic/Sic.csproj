@@ -116,7 +116,6 @@
     <Compile Include="Catalogos.Designer.cs">
       <DependentUpon>Catalogos.cs</DependentUpon>
     </Compile>
-    <Compile Include="conexion.cs" />
     <Compile Include="herramientas.cs">
       <SubType>Form</SubType>
     </Compile>

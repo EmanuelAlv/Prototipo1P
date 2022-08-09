@@ -14,7 +14,7 @@ namespace Sic
 {
     public partial class Menu : Form
     {
-        Conexion cn = new Conexion();
+        
         public Menu()
         {
             InitializeComponent();
@@ -41,7 +41,8 @@ namespace Sic
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            //Se agrego una salida de manera segura del programa
+            this.Close();// This. close cierra la ventana en la que estemos en ese momento.
         }
 
         private void btnInformes_Click(object sender, EventArgs e)
